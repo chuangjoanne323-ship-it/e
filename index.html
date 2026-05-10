@@ -9,7 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0b0d12;color:#e8eaf0;font-family:sans-serif;font-size:14px;gap:10px">
+        <div style="width:20px;height:20px;border:2px solid #666;border-top-color:#e85d54;border-radius:50%;animation:s 0.8s linear infinite"></div>
+        Loading…
+      </div>
+      <style>@keyframes s{to{transform:rotate(360deg)}}</style>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './styles.css';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import CourseCard from './components/CourseCard';
